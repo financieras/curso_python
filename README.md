@@ -49,10 +49,12 @@ Curso de **Python**.
 7. Buscar palíndromos
 8. Generador de contraseñas
 9. Algoritmos de ordenación
-10. Números primos
-11. Juego "Si sale un 3 pierdes"
-12. Juego de "La última piedra"
-13. Juego de "La tirada más larga"
-14. Juego de "Adivina el número secreto"
-15. Juego de "Piedra, papel y tijeras"
-16. Juego Tic Tac Toe
+10. Multiplicar matrices
+11. Máximo Común Divisor (MCD)
+12. Números primos
+13. Juego "Si sale un 3 pierdes"
+14. Juego de "La última piedra"
+15. Juego de "La tirada más larga"
+16. Juego de "Adivina el número secreto"
+17. Juego de "Piedra, papel y tijeras"
+18. Juego Tic Tac Toe
