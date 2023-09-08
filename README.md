@@ -40,6 +40,19 @@ Curso de **Python**.
 9. Matrices
 
 ### Bloque 3. Casos prácticos
-1. Juego de "La última piedra"
-2. Juego de "Adivina el número secreto"
-3. Juego Tic Tac Toe
+1. Capitalización compuesta
+2. Índice de masa corporal
+3. Letra del DNI
+4. Aplicación de Calculadora
+5. Encriptar y desencriptar mensajes con el cifrado César
+6. Código murciélago
+7. Buscar palíndromos
+8. Generador de contraseñas
+9. Algoritmos de ordenación
+10. Números primos
+11. Juego "Si sale un 3 pierdes"
+12. Juego de "La última piedra"
+13. Juego de "La tirada más larga"
+14. Juego de "Adivina el número secreto"
+15. Juego de "Piedra, papel y tijeras"
+16. Juego Tic Tac Toe
