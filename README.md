@@ -12,21 +12,23 @@ Curso de **Python**.
   - viendo ejemplos y
   - haciendo ejercicios
 
-## Contenido: Son tres bloques
+## Contenido (son tres bloques)
 
 ### Bloque 1. Variables, condicionales y bucles
 1. ¿Qué es Python?
 2. Instalación. El editor y la terminal
 3. Imprimiendo "Hola mundo"
 4. Como calculadora
-5. Variables y tipos de datos
-6. Operadores
-7. Entrada y salida de datos
-8. Listas
+5. Variables
+6. Tipo de datos. Conversión de tipos. Concatenar
+7. Operadores
+8. Entrada y salida de datos
 9. Números aleatorios
-10. Condicional `if`
-11. Bucle `while`
-12. Bucle `for`
+10. Listas
+11. Tulas, diccionarios y conjuntos
+12. Condicional `if`
+13. Bucle `while`
+14. Bucle `for`
 
 ### Bloque 2. Funciones
 1. ¿Por qué se usan las funciones en programación?
@@ -58,3 +60,7 @@ Curso de **Python**.
 16. Juego de "Adivina el número secreto"
 17. Juego de "Piedra, papel y tijeras"
 18. Juego Tic Tac Toe
+
+
+## Recursos Python
+https://altocodigo.blogspot.com/2020/05/recursos-python.html
