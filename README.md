@@ -8,11 +8,11 @@ Curso de **Python**.
   - iot (internet of things)
   - web (web pages, web scraping)
   - bots, ...
-3. Sistema muy práctico de aprendizaje. Aprender haciendo, *"learning by doing"*
+2. Sistema muy práctico de aprendizaje. Aprender haciendo, *"learning by doing"*
   - viendo ejemplos y
   - haciendo ejercicios
 
-## Contenido (son tres bloques)
+## Contenido → tres bloques
 
 ### Bloque 1. Variables, condicionales y bucles
 1. ¿Qué es Python?
