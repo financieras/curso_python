@@ -1,5 +1,4 @@
-# curso_python
-Curso de **Python**.
+# **Curso de Python**
 
 ## Metodología. ¿Cómo aprendemos a programar?
 1. Usando Python que es un lenguaje de alto nivel (cercano al lenguaje humano) y actualmente es uno de los más usados a nivel profesional:
