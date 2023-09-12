@@ -50,15 +50,17 @@
 7. Buscar palíndromos
 8. Generador de contraseñas
 9. Algoritmos de ordenación
-10. Multiplicar matrices
-11. Máximo Común Divisor (MCD)
-12. Números primos
-13. Juego "Si sale un 3 pierdes"
-14. Juego de "La última piedra"
-15. Juego de "La tirada más larga"
-16. Juego de "Adivina el número secreto"
-17. Juego de "Piedra, papel y tijeras"
-18. Juego Tic Tac Toe
+10. Algoritmo para la raiz cuadrada
+11. Multiplicar matrices
+12. Máximo Común Divisor (MCD)
+13. Números primos
+14. Permutaciones, variaciones, combinaciones
+15. Juego "Si sale un 3 pierdes"
+16. Juego de "La última piedra"
+17. Juego de "La tirada más larga"
+18. Juego de "Adivina el número secreto"
+19. Juego de "Piedra, papel y tijeras"
+20. Juego Tic Tac Toe
 
 
 ## Recursos Python
