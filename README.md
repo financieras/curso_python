@@ -23,22 +23,28 @@
 7. Operadores
 8. Entrada y salida de datos
 9. Números aleatorios
-10. Listas
+10. Listas y `range`
 11. Tulas, diccionarios y conjuntos
 12. Condicional `if`
 13. Bucle `while`
 14. Bucle `for`
+15. Tratamiento de errores y excepciones
 
 ### Bloque 2. Funciones
 1. ¿Por qué se usan las funciones en programación?
-2. Funciones con `return`
+2. Funciones: retorno de datos
 3. Parámetros y argumentos
-4. Función principal
-5. Alcance de las variables (scope)
-6. Conversión de tipos
-7. Funciones matemáticas
-8. Recursividad
-9. Matrices
+4. Parámetros con valor por defecto
+5. Argumentos indeterminados (`*args` y `**kwargs`)
+6. Función principal
+7. Alcance de las variables (scope)
+8. Conversión de tipos
+9. Funciones matemáticas
+10. Recursividad
+11. Matrices
+12. Listas por comprensión (List Comprehension)
+13. El operador asterisco, join, zip, map
+14. Depuración de código
 
 ### Bloque 3. Casos prácticos
 1. Capitalización compuesta
