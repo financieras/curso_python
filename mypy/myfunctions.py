@@ -11,8 +11,10 @@ def multiplicar(n1,n2):
     print(f"El resultado del producto es {n1*n2}")
 
 def dividir(n1,n2):
-    """Permite dividir dos números.
-    Si el denominador es cero se avisa."""
+    '''
+    Permite dividir dos números.
+    Si el denominador es cero se avisa.
+    '''
     if n2:
         print(f"El resultado de la división es {n1/n2}")
     else:
