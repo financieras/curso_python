@@ -1,0 +1,443 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMuG28RNENWkoxq++gnNSjg",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/financieras/curso_python/blob/main/retos/pack02\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## Reto 11: Es mío\n",
+        "* Escribe una función que devuelva la cadena \"Mi\" unida con un espacio \" \" y el argumento dado.\n",
+        "* Ejemplos:\n",
+        "    1. algo_mio(\"coche\") ➞ \"Mi coche\"\n",
+        "    2. algo_mio(\"verano mágico\") ➞ \"Mi verano mágico\"\n",
+        "    3. algo_mio(\"Mi\") ➞ \"Mi Mi\""
+      ],
+      "metadata": {
+        "id": "h_tb0PLbGdLr"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def algo_mio(txt):\n",
+        "    pass"
+      ],
+      "metadata": {
+        "id": "N18SC3PT9Itm"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(algo_mio(\"coche\"))\n",
+        "print(algo_mio(\"verano mágico\"))\n",
+        "print(algo_mio(\"camino\"))"
+      ],
+      "metadata": {
+        "id": "mCm8_tgZ9bsR"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## Reto 12: ¿Es un número negativo?\n",
+        "* Cree una función que tome un número como único argumento y devuelva 'True' si es menor o igual a cero; de lo contrario, devuelva `False`.\n",
+        "* Ejemplos:\n",
+        "    1. menor_o_igual_a_cero(5) ➞ False\n",
+        "    1. menor_o_igual_a_cero(0) ➞ True\n",
+        "    1. menor_o_igual_a_cero(-2) ➞ True"
+      ],
+      "metadata": {
+        "id": "rmZs31j9GdRp"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def menor_o_igual_a_cero(num):\n",
+        "    pass"
+      ],
+      "metadata": {
+        "id": "Y3ZM0K8prKCw"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(menor_o_igual_a_cero(5))\n",
+        "print(menor_o_igual_a_cero(0))\n",
+        "print(menor_o_igual_a_cero(-2))"
+      ],
+      "metadata": {
+        "id": "jUCTj3cRrZWt"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## Reto 13: Saludar con nombre\n",
+        "* Cree una función que tome un nombre y devuelva un saludo en forma de cadena.\n",
+        "* Ejemplos:\n",
+        "    1. saludar(\"Gerardo\") ➞ \"Hola Gerardo!\"\n",
+        "    2. saludar(\"Teresa\") ➞ \"Hola Teresa!\"\n",
+        "    3. saludar(\"Edu\") ➞ \"Hola Edu!\"\n",
+        "* ¡No olvides el signo de exclamación!"
+      ],
+      "metadata": {
+        "id": "s46QzxEwsteU"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def saludar(nombre):\n",
+        "    pass"
+      ],
+      "metadata": {
+        "id": "s96zufV5sor7"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(saludar(\"Gerardo\"))\n",
+        "print(saludar(\"Teresa\"))\n",
+        "print(saludar(\"Edu\"))"
+      ],
+      "metadata": {
+        "id": "3BLYdj99s2xL"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## Reto 14: Saludo especial\n",
+        "* Yvonne ha escrito una función que devuelve un saludo a sus amigos.\n",
+        "* Pero tiene un amigo especial, Ares, al que quiere saludar de una forma diferente.\n",
+        "* Añadió un caso especial en su función, pero cometió un error.\n",
+        "* ¿Puedes intentar solucionar el error para que la función trabaje correctamente?\n",
+        "* Ejemplos:\n",
+        "    1. greeting(\"Matt\") ➞ \"Hello, Matt!\"\n",
+        "    2. greeting(\"Helen\") ➞ \"Hello, Helen!\"\n",
+        "    3. greeting(\"Ares\") ➞ \"Hello, my Love!\"\n",
+        "* Esta es la función que da problemas:\n",
+        "\n",
+        "<pre>\n",
+        "def greeting(name):\n",
+        "\treturn \"Hello, \" + name + \"!\"\n",
+        "\tif name == \"Ares\":\n",
+        "\t\treturn \"Hello, my Love!\"\n",
+        "</pre>"
+      ],
+      "metadata": {
+        "id": "1pzgsdSjomf9"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def greeting(name):\n",
+        "    pass"
+      ],
+      "metadata": {
+        "id": "M0OO25UpuNLX"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(greeting(\"Matt\"))\n",
+        "print(greeting(\"Helen\"))\n",
+        "print(greeting(\"Ares\"))"
+      ],
+      "metadata": {
+        "id": "GLMwmJaUucpy"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## Reto 15: Sumar los ángulos de un polígono\n",
+        "* Dado un polígono regular de `n` lados, devuelve la suma total de los ángulos internos (en grados).\n",
+        "* Ejemplos:\n",
+        "    1. grados_poligono(3) ➞ 180\n",
+        "    2. grados_poligono(4) ➞ 360\n",
+        "    3. grados_poligono(6) ➞ 720\n",
+        "* `n` siempre será mayor que 2\n",
+        "* La fórmula `(n - 2) × 180` da la suma de los ángulos de un polígono de `n` lados."
+      ],
+      "metadata": {
+        "id": "5A-5eV-vGdWk"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def grados_poligono(n):\n",
+        "    pass"
+      ],
+      "metadata": {
+        "id": "P6QM8aedvYW2"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(grados_poligono(3))\n",
+        "print(grados_poligono(4))\n",
+        "print(grados_poligono(6))"
+      ],
+      "metadata": {
+        "id": "jB0uLJSTvlMO"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## Reto 16: Calculando potencias\n",
+        "* Cree una función que tome un número `base` y un número `exponente` y devuelva el cálculo.\n",
+        "* Ejemplos:\n",
+        "    1. calcular_potencias(5, 3) ➞ 125\n",
+        "    2. calcular_potencias(10, 4) ➞ 10000\n",
+        "    3. calcular_potencias(3, 3) ➞ 27"
+      ],
+      "metadata": {
+        "id": "dQhx7Ytkbhd1"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def calcular_potencias(base, exponente):\n",
+        "    pass"
+      ],
+      "metadata": {
+        "id": "8QDW4YJuwCdA"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(calcular_potencias(5, 3))\n",
+        "print(calcular_potencias(10, 4))\n",
+        "print(calcular_potencias(3, 3))"
+      ],
+      "metadata": {
+        "id": "m-LZjcMywNzD"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## Reto 17: Conversión de Booleano a String\n",
+        "* Cree una función que tome una bandera booleana y la devuelva como una cadena.\n",
+        "* Ejemplos:\n",
+        "    1. bool_to_string(True) ➞ \"True\"\n",
+        "    2. bool_to_string(False) ➞ \"False\"\n",
+        "* La función puede comenzar así:\n",
+        "\n",
+        "<pre>\n",
+        "def bool_to_string(flag):\n",
+        "</pre>"
+      ],
+      "metadata": {
+        "id": "znXBQ4UOcUp_"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def bool_to_string(flag):\n",
+        "    pass"
+      ],
+      "metadata": {
+        "id": "_ZKKsHUZwmt-"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(bool_to_string(True))\n",
+        "print(bool_to_string(False))"
+      ],
+      "metadata": {
+        "id": "_YYKy9x8wu8k"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## Reto 18: Puntos de baloncesto\n",
+        "* Estamos contando puntos para un partido de baloncesto, dada la cantidad de tiros de dos puntos y tiros de tres puntos anotados.\n",
+        "* Encuentra los puntos finales para el equipo y devuelve ese valor.\n",
+        "* Ejemplos:\n",
+        "    1. puntos(1, 1) ➞ 5\n",
+        "    2. puntos(7, 5) ➞ 29\n",
+        "    3. puntos(38, 8) ➞ 100\n",
+        "* El primer parámetro de la función hace referencia a los tiros_de_dos.\n",
+        "* El segundo parámetro de la función hace referencia a los tiros_de_tres."
+      ],
+      "metadata": {
+        "id": "6kkb_cIDSuql"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def puntos(tiros_de_dos, tiros_de_tres):\n",
+        "    pass"
+      ],
+      "metadata": {
+        "id": "v-WIWHneqwIW"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(puntos(1, 1))\n",
+        "print(puntos(7, 5))\n",
+        "print(puntos(38, 8))"
+      ],
+      "metadata": {
+        "id": "FjFNXeRCrDJf"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## Reto 19: ¿Menos de cien?\n",
+        "* Dados dos números, devuelva `True` si la suma de ambos números es menor que 100, de lo contrario, devuelve `False`.\n",
+        "* Ejemplos:\n",
+        "    1. menor_que_cien(22, 15) ➞ True\n",
+        "    2. menor_que_cien(93, 34) ➞ False\n",
+        "    3. menor_que_cien(3, 17) ➞ True\n",
+        "    4. menor_que_cien(25, 75) ➞ False"
+      ],
+      "metadata": {
+        "id": "wkinIHpfSybR"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def menor_que_cien(num1, num2):\n",
+        "    pass"
+      ],
+      "metadata": {
+        "id": "vxTk5R-ksf9M"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(menor_que_cien(22, 15))\n",
+        "print(menor_que_cien(93, 34))\n",
+        "print(menor_que_cien(3, 17))\n",
+        "print(menor_que_cien(25, 75))"
+      ],
+      "metadata": {
+        "id": "yYE47asFtFXs"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## Reto 20: Encontrar el número más grande en una lista\n",
+        "* Crea una función que tome una lista de números enteros no negativos.\n",
+        "* Retorna el número más grande de la lista.\n",
+        "* Ejemplos:\n",
+        "    1. largest_num([4, 5, 1, 3]) ➞ 5\n",
+        "    2. largest_num([300, 200, 600, 150]) ➞ 600\n",
+        "    3. largest_num([1000, 1001, 857, 0]) ➞ 1001"
+      ],
+      "metadata": {
+        "id": "xgBq9J3vw8X2"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def largest_num(lista):\n",
+        "    pass"
+      ],
+      "metadata": {
+        "id": "tqAYksnkuZxA"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(largest_num([4, 5, 1, 3]))\n",
+        "print(largest_num([300, 200, 600, 150]))\n",
+        "print(largest_num([1000, 1001, 857, 0]))"
+      ],
+      "metadata": {
+        "id": "2qNLn_1ouoGO"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
